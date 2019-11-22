@@ -1,0 +1,36 @@
+/* random_quotes.css */
+
+/*
+This file works with show_random_quotes.js 
+and random_quotes.html . It styles the quotes 
+and their containers as described in the 
+comments below.
+*/
+
+
+.quote-container
+  { display: none;
+  }
+/*
+quote-container is the class for the outer 
+ enclosing each quote. This initialises
+it to not display. The JavaScript will override
+this by fading randomly chosen quotes in and 
+out.
+*/
+
+
+.quote-body
+  { 
+  }
+/*
+The body of the quote. Does nothing so far.
+*/
+
+
+.quote-author
+  { font-style: italic;
+  }
+/*
+Italicises the author's name in each quote.
+*/
